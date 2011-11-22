@@ -1,0 +1,12 @@
+{application, build_config,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { build_config_app, []}},
+  {env, []}
+ ]}.
